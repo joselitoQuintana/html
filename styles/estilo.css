@@ -1,0 +1,45 @@
+header{
+
+    background-color: red;
+    
+    
+    
+}
+ strong{
+
+    
+     color: white;
+     
+
+}
+nav ul {
+     
+    display: flex;
+    height: 60px;
+    
+}
+strong, nav ul li {
+    text-decoration: none;
+    width: 50px;
+    margin: auto;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+footer{
+    background-color: red;
+}
+footer ul{
+    
+    display: flex;
+    
+}
+footer ul li{
+    list-style-type: none;
+    width: 300%;
+    height: 40px;
+}
+main aside lu li{
+    list-style: none;
