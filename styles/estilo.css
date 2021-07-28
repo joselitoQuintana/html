@@ -66,5 +66,18 @@ input:valid{
       
  }
  
+ #nombre, #edad, #email, #pais, #comentarios {
+     display: inline-block;
+     width: 60%;
+     height: 30px;
+ }
+ button{
+     width: 20%;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px
+}
 
  
