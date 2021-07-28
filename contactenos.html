@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="./styles/estilo.css">
+
+
+</head>
+<body>
+    <header>
+        <strong><a href="./index.html">Logo</a></strong>
+        <nav>    
+            <ul>
+                <li><a href="deporte.html">Deportes</a></li>
+                <li><a href="humor.html">Humor</a></li>
+                <li><a href="espectaculo.html">Espectaculo</a></li>
+                <li><a href="contactenos.html">Contactenos</a></li>
+            </ul>
+        </nav>
+    </header>
+     <main>
+        <form action="">
+            <section>
+                <div>
+                    <h1>Contacto</h1>
+                </div>
+                
+                <div>
+                <input type="text" name="nombre"id="nombre" placeholder="Nombre y Apellido" required pattern="[A-Za-z]{2,50}">
+                </div>
+                
+                <div>
+                    <input type="number" id="edad" name="edad" placeholder="Edad" required min="1" max="99" value="10">
+                </div>
+
+                <div>
+                    <input type="email" id="email" name="email" placeholder="email">
+                </div>
+
+                <div>
+                    <select name="" id="">
+                        <option>Seleccionar</option>
+                        <option value="pais1">Peru</option>
+                        <option value="pais2">Argentina</option>
+                        <option value="pais3">Brazil</option>
+                    </select>
+
+                </div>
+                <div>
+                    <p>Sexo</p>
+                    <input type="radio" name="Sexo" id="SexoF" value="sexoF"> <label for="SexoF">F</label>
+                    <input type="radio" name="Sexo" id="SexoM" value="sexoM"> <label for="SexoM">M</label>
+
+                </div>
+
+                <div>
+                    <p>Interes</p>
+                    <input type="checkbox" name="tecnologia" id="tecnologia" value="tecnologia"><label for="tecnologia">Tecnologia</label>
+                    <input type="checkbox" name="politica" id="politica" value="politica"> <label for="politica">Politica</label>
+                    <input type="checkbox" name="Moda" id="Moda" value="Moda"><label for="Moda">Moda</label>
+
+                </div>
+                <div>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="5" placeholder="comentarios"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Registrar</button>
+                    <button type="reset">Limpiar</button>
+
+                </div>
+    
+            </section>
+        </form>
+        <section>
+            <h2>UBICANOS</h2>
+            <div>
+                <p>Direccion: Enrique Segoviano Mk 5 lt 20</p>
+            </div>
+            <div>
+                <p>Lima-Peru</p>
+            </div>
+            <div>
+                <p>Telefono: 5555 &#9742;</p>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://picsum.photos/200/300?random~1" alt="">
+                </figure>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>

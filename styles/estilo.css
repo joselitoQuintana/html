@@ -43,3 +43,28 @@ footer ul li{
 }
 main aside lu li{
     list-style: none;
+}
+div{
+    background-color: lavender;
+    margin: 10px;
+    padding: 5px;
+    
+    
+    
+}
+input:invalid {
+    
+    border: 2px solid blue;
+}
+input:valid{
+    border: 2px solid yellow;
+}
+
+
+ textarea:valid {
+     border: 2px solid yellow;
+      
+ }
+ 
+
+ 
