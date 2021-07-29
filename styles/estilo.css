@@ -1,70 +1,114 @@
+ 
 header{
-
-    background-color: red;
+    text-align: center;
+    display:flex;
+    justify-content:space-between;
+    /*justify-content: space-around;*/ 
+    /*justify-content: flex-start; funion por defecto*/
+    align-items: center;/*centrar todas las imagenes*/
+    background-color:red;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    
+    
+   
     
     
     
 }
  strong{
-
-    
+     
+      
      color: white;
+     margin-left: 15px;
      
-
-}
-nav ul {
      
+     
+     
+ } 
+ 
+nav ul{
     display: flex;
-    height: 60px;
+     
+}
+
+nav ul li{
+ 
+    list-style: none;
+     
     
 }
-strong, nav ul li {
+a {
+   
     text-decoration: none;
-    width: 50px;
-    margin: auto;
-    list-style: none;
+    margin: 25px;
+    color: white;
 }
 
-nav ul li a{
-    text-decoration: none;
-}
+
+
+
+
+
+
 footer{
+    
+ 
+  
+  
     background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+    
+    
 }
 footer ul{
-    
+
     display: flex;
-    
+    justify-content:space-around;
+    align-items: center;
+    height: 40px;
+     
 }
 footer ul li{
-    list-style-type: none;
-    width: 300%;
-    height: 40px;
+   list-style: none;
+color: white;
 }
-main aside lu li{
-    list-style: none;
-}
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 div{
     background-color: lavender;
-    margin: 10px;
+    margin-top: 10px;
     padding: 5px;
     
     
     
 }
-input:invalid {
-    
-    border: 2px solid blue;
-}
-input:valid{
+ 
+
+#nombre:valid, #edad:valid {
     border: 2px solid yellow;
 }
 
-
- textarea:valid {
-     border: 2px solid yellow;
-      
- }
+ 
+ 
+ 
  
  #nombre, #edad, #email, #pais, #comentarios {
      display: inline-block;
@@ -80,4 +124,7 @@ input:valid{
     border-radius: 5px
 }
 
- 
+ main{
+    margin: 10px;
+    padding: 5px;
+ }
